@@ -2,3 +2,5 @@
 **/*.out
 imgui.ini
 main
+**/*.swp
+**/*.swo
