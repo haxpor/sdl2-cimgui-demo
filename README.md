@@ -14,5 +14,9 @@ Use
 
 * [ ] Add `imgui`, and `cimgui` as 3rd source via git submodule then modify `Makefile` to build whole thing. For better sync with update, and specific commit.
 
+# More Info
+
+Read my blog on [Integrate cimgui with SDL2 in C code](https://blog.wasin.io/2018/10/31/integrate-cimgui-with-sdl2-in-c-code.html).
+
 # License
 [MIT](https://github.com/haxpor/sdl2-cimgui-demo/blob/master/LICENSE.txt), Wasin Thonkaew
