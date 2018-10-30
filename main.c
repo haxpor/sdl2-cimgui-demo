@@ -52,7 +52,7 @@ int main(int argc, char* argv[])
   SDL_GetCurrentDisplayMode(0, &current);
   
   window = SDL_CreateWindow(
-      "Hello", 0, 0, 640, 480,
+      "Hello", 0, 0, 1024, 768,
       SDL_WINDOW_SHOWN | SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE
       );
   if (window == NULL) {
@@ -146,16 +146,18 @@ int main(int argc, char* argv[])
       igEnd();
     }
 
-    //if (showWindow)
-    //{
-    //  igBegin("imgui window", &showWindow);
-    //  igText("Hello from imgui");
-    //  if (igButton("Close me"))
-    //  {
-    //    showWindow = false;
-    //  }
-    //  igEnd();
-    //}
+    if (showAnotherWindow)
+    {
+      igBegin("imgui Another Window", &showAnotherWindow, 0);
+      igText("Hello from imgui");
+      ImVec2 buttonSize;
+      buttonSize.x = 0; buttonSize.y = 0;
+      if (igButton("Close me", buttonSize))
+      {
+        showAnotherWindow = false;
+      }
+      igEnd();
+    }
 
     // render
     igRender();
