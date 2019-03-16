@@ -1,6 +1,10 @@
 **/*.o
 **/*.out
 imgui.ini
-main
+main-gl3w
+main-glew
 **/*.swp
 **/*.swo
+*.dylib
+*.dll
+*.so
