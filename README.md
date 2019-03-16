@@ -10,10 +10,6 @@ Use
 - With help of suggestion from [#78](https://github.com/cimgui/cimgui/issues/78), and [#79](https://github.com/cimgui/cimgui/issues/79).
 - Focus testing on macOS only, not on Windows or Linux. Modify `Makefie` as needed for those platforms.
 
-# TODO
-
-* [ ] Add `imgui`, and `cimgui` as 3rd source via git submodule then modify `Makefile` to build whole thing. For better sync with update, and specific commit.
-
 # More Info
 
 Read my blog on [Integrate cimgui with SDL2 in C code](https://blog.wasin.io/2018/10/31/integrate-cimgui-with-sdl2-in-c-code.html).
