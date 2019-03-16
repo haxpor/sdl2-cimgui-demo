@@ -21,7 +21,7 @@ Then run newly built `main-gl3w` or `main-glew` depends on which make's target y
 
 # More Info
 
-My blog post about accompnaying this project for more detail [Integrate cimgui with SDL2 in C code](https://blog.wasin.io/2018/10/31/integrate-cimgui-with-sdl2-in-c-code.html).
+My blog post accompnaying this project for more detail [Integrate cimgui with SDL2 in C code](https://blog.wasin.io/2018/10/31/integrate-cimgui-with-sdl2-in-c-code.html).
 
 ![what to expect](https://blog.wasin.io/assets/images/sdl2-cimgui/result-sdl2-cimgui-demo.png)
 
