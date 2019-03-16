@@ -3,7 +3,7 @@ CFLAGS_GLEW = -Wall -std=c99 -I/opt/X11/include -I./imgui -I./imgui/impl -I. -I/
 LFLAGS = -lSDL2 -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo -L./ cimgui.dylib -lc++ `sdl2-config --libs`
 LFLAGS_GLEW = -lSDL2 -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo -L./ cimgui.dylib -lGLEW -lc++ `sdl2-config --libs`
 
-SDL_IMPL_CFLAGS = -I. -I./imgui -I/usr/local/include/SDL2 -I/usr/local/include/GL -I/opt/local/include -DIMGUI_IMPL_API="extern \"C\""
+SDL_IMPL_CFLAGS = -I. -I./imgui -I/opt/X11/include -I/usr/local/include/SDL2 -I/usr/local/include/GL -I/opt/local/include -DIMGUI_IMPL_API="extern \"C\""
 OPENGL3_IMPL_CFLAGS = -I. -I./gl3w/include -I./imgui -I/usr/local/include/GL -DIMGUI_IMPL_API="extern \"C\"" 
 OPENGL3_IMPL_CFLAGS_GLEW = -I. -I./imgui -I/usr/local/include/GL -DIMGUI_IMPL_API="extern \"C\"" -DIMGUI_IMPL_OPENGL_LOADER_GLEW
 
