@@ -5,6 +5,11 @@
 # `make` will proceed with 1. But `make glew` will proceed with 2.
 # So watch out for _GLEW varaint in this Makefile.
 #
+# Provided 3 targets
+# 1. all - both gl3w, and glew
+# 2. gl3w
+# 3. glew
+#
 
 CC := gcc
 INCLDIR := include
